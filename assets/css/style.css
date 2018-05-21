@@ -1,0 +1,47 @@
+body {
+	background-image: url("/Users/basavaraja/Documents/unit-4-game/assets/images/crystal-background-4.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size:100% auto;
+	
+ }
+
+
+
+.crystals{
+	display:flex;
+	justify-content: space-around;
+	align-items: center;
+	
+	
+}
+
+.crystal{
+	border:1px solid green;
+	height:200px;
+	width: 200px;
+	border-radius: 4px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+	transition: box-shadow 1s;
+}
+
+
+
+img{
+	width:50px;
+}
+
+.numberToMatch {
+	font-weight: bold;
+}
+
+.instructions{
+	text-align: justify;
+	font-style: italic;
+	
+	
+}
+.header{
+	text-decoration: underline;
+	color:brown;
+}
